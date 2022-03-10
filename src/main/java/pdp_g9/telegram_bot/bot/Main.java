@@ -305,7 +305,7 @@ public class Main extends TelegramLongPollingBot implements ReadFromExcel {
 
                 case "NUMBEROFUSERS":
                     String string = userService.numberOfUsers();
-                    sendMessage.setText("nmaga kere userlar "+string);
+                    sendMessage.setText(string);
                     sendMessage.setChatId(String.valueOf(chatId));
                     executes2(sendMessage);
                     break;
