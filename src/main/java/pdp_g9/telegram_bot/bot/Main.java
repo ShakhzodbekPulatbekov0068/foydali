@@ -188,7 +188,7 @@ public class Main extends TelegramLongPollingBot implements ReadFromExcel {
                     break;
 
                 case "SEARCHBYNAME":
-                    sendMessage.setText("Ism kiriting: ");
+                    sendMessage.setText("Ism kiriting: atak bu yengi ");
                     sendMessage.setChatId(String.valueOf(chatId));
                     executes2(sendMessage);
                     userService.setAdminStatus(3, chatId);
